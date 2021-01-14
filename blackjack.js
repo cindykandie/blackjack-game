@@ -35,7 +35,7 @@ function randomCard() {
 function showCard(card,activePlayer){
     if(activePlayer['score']<=21){
     let cardImage = document.createElement('img')
-    cardImage.src = `blackjack images/${card}.jpg`
+    cardImage.src = `images/${card}.jpg`
     document.querySelector(activePlayer['div']).appendChild(cardImage)
     // hitSound.play()
 }
